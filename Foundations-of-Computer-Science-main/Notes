@@ -1,0 +1,44 @@
+Notes:
+
+It includes code from Chapter 1 to Chapter 11. Other chapters have no code. Users 
+can use the following native or onine c compilers to run any c program. Users can 
+download the ebook from the designated weblink. 
+
+1. Native C Compiler 
+
+1). install tiny c compiler
+
+$ sudo apt update
+$ sudo apt install tcc
+
+It will be installed in the directory as follows.
+/usr/bin/tcc
+
+2). Call the c program
+
+$ cd /home/user/Documents/cprograms
+$ tcc -run hello.c
+Hello World
+
+3). echo execution with command line 
+
+Usage - option, read from the stdio 
+
+echo 'main(){puts("hello");}' | tcc -run -
+hello
+
+2. Online C Compiler 
+
+1). tutorials
+
+https://www.tutorialspoint.com/compile_c_online.php
+
+2). onlinegdb
+
+https://www.onlinegdb.com/online_c_compiler
+
+3. ebook 
+
+Users can download the book of Foundations of Computer Science with the following link. 
+
+weblink: http://blough.ece.gatech.edu/3020/focs.pdf
