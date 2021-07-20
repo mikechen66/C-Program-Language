@@ -27,6 +27,8 @@ that have been approved by the authors. When the fourth edition is released, the
 will also be Python implementations available. For other pubished source code not 
 made by the authors such as C and C++, please take them just as reference. 
 
+https://github.com/gzc/CLRS
+
 https://mitpress.mit.edu/books/introduction-algorithms-third-edition
 
 https://web.iiit.ac.in/~pratik.kamble/storage/Algorithms/Cormen_Algorithms_3rd.pdf
