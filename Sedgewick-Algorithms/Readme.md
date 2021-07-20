@@ -16,9 +16,9 @@ The orientation is to study algorithms likely to be of practical use. It provide
 about the tools of the trade to the point that readers can confidently implement, debug, and 
 put to work algorithms to solve a problem or to provide functionality in an application. Full 
 implementations of the methods discussed are included, as are descriptions  of the operations 
-of these programs on a consistent set of examples. Because we work with real  code rather than 
-write pseudo-code, the programs' { and } symbokl has double indent in the webpage but can be 
-put to practical us  quickly. Please see the following weblink for reference. 
+of these programs on a consistent set of examples. Because the authors work with real code
+rather than write pseudo-code, the programs (algorithms_basic and algorithms_advanced) can be 
+put to practical us quickly. For exmaples and exercies, please see the packages for reference. 
 
 ## Additional Benefit
 
