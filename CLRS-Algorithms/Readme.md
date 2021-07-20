@@ -24,8 +24,8 @@ topic of increasing importance.
 According to the first author, The McGraw-Hill version of the 2nd edition came with 
 a CD containing Java implementations. These are the only available implementations 
 that have been approved by the authors. When the fourth edition is released, there 
-will also be Python implementations available. For other pubished source code (not 
-made by the authors)( such as C and C++, please take them just as reference. 
+will also be Python implementations available. For other pubished source code not 
+made by the authors such as C and C++, please take them just as reference. 
 
 https://mitpress.mit.edu/books/introduction-algorithms-third-edition
 
