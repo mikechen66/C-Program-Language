@@ -29,6 +29,8 @@ made by the authors such as C and C++, please take them just as reference.
 
 https://github.com/gzc/CLRS
 
+https://www.cs.dartmouth.edu/~thc/
+
 https://mitpress.mit.edu/books/introduction-algorithms-third-edition
 
 https://web.iiit.ac.in/~pratik.kamble/storage/Algorithms/Cormen_Algorithms_3rd.pdf
