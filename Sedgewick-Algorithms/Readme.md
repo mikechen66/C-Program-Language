@@ -17,8 +17,8 @@ about the tools of the trade to the point that readers can confidently implement
 put to work algorithms to solve a problem or to provide functionality in an application. Full 
 implementations of the methods discussed are included, as are descriptions  of the operations 
 of these programs on a consistent set of examples. Because we work with real  code rather than 
-write pseudo-code, the programs' { and } has double indent in the webpage but can be put to 
-practical us  quickly. Please see the following weblink for reference. 
+write pseudo-code, the programs' { and } symbokl has double indent in the webpage but can be 
+put to practical us  quickly. Please see the following weblink for reference. 
 
 ## Additional Benefit
 
