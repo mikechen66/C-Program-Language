@@ -2,7 +2,7 @@
 
 ## Introduction
 
-C Language was originally designed for and implemented on the UNIX operating system on the DEC PDP-11, by Dennis Ritchie. C is the cornerstone of the operating system, the C compiler, and essentially all UNIX/Linux/MacOS application programs. C is not tied to any particular hardware or system, however, and it is easy to write programs that will run without change on any machine that supports C. The C language evolves from the orginal K&N C to the modern ASNI C. 
+C Language was originally designed for and implemented on the UNIX operating system on the DEC PDP-11, by Dennis Ritchie. C is the cornerstone of the operating systems, the C compilers, and essentially all UNIX/Linux/MacOS application programs. C is not tied to any particular hardware or system, however, and it is easy to write programs that will run without change on any machine that supports C. The C language evolves from the orginal K&N C to the modern ASNI C. 
 
 ## Power of C Language
 
