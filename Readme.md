@@ -1,5 +1,4 @@
-# Pointers on C
-Kenneth Reek 
+# C Programming 
 
 ## Introduction
 
@@ -16,7 +15,6 @@ C gives programmers more control over where data is stored and how it is initial
 2.Another reason for its popularity is its ubiquity. C compilers are widely available for a great number of machines. In addition, the ANSI Standard improves the portability of C programs among different machines.
 
 3.C is the foundation upon which C++ is built. C++ provides a different view of program design and implementation than C. Nevertheless, a thorough knowledge of C skills and techniques, such as using pointers and the standard library, will also be useful for the C++ programmer. 
-
 
 ## Resources
 
@@ -55,6 +53,3 @@ http://infolab.stanford.edu/~ullman/fcsc-figures.html
 Programming in C
 
 http://users.cs.cf.ac.uk/Dave.Marshall/C/
-
-
-
