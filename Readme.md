@@ -18,6 +18,10 @@ C gives programmers more control over where data is stored and how it is initial
 
 ## Resources
 
+GNU C Library Reference Manual
+
+https://www.gnu.org/software/libc/manual/pdf/libc.pdf
+
 Algorithms in C, Parts 1-4
 
 https://www.cs.princeton.edu/~rs/Algs3.c1-4/code.txt
