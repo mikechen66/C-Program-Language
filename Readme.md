@@ -36,7 +36,7 @@ Checkout the latest glibc 2.33 stable release:
     cd glibc
     git checkout release/2.33/master
     
-Release tarballs are available via anonymous ftp at http://ftp.gnu.org/gnu/glibc/ and its mirrors.
+Release tarballs are available via anonymous ftp at [glibc](http://ftp.gnu.org/gnu/glibc/) and its related mirrors.
 
 
 ## Resources
