@@ -22,7 +22,6 @@ It will be installed in the directory as follows in the Linux.
 
 /usr/bin/tcc
 
-
 2). Call the c program
 
 $ cd /home/user/Documents/cprograms
@@ -46,6 +45,7 @@ weblink: https://bellard.org/tcc/
 
 wikipedia: https://en.wikipedia.org/wiki/Tiny_C_Compiler
 
+
 ## Online C Compiler 
 
 Users can put the lines of code onto the plate of the following online c compilers and
@@ -64,7 +64,6 @@ https://www.tutorialspoint.com/compile_c_online.php
 b. Paste the code onto the plate
 
 c. Click the button of Execute
-
 
 2). onlinegdb c compiler
 
