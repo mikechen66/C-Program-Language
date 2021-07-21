@@ -20,6 +20,8 @@ C gives programmers more control over where data is stored and how it is initial
 
 Download sources 
 
+GNU website: https://www.gnu.org/software/libc/sources.html
+
 The code (with the size of 219 MB) will be doanloaded into the directory of /home/user with the Linux such as Ubuntu. 
 
 Checkout the latest glibc in development:
