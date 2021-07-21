@@ -3,7 +3,7 @@ Brian W. Kernighan, Dennis M. Ritchie
 
 The C Programming Language (or K&R C) Second Edition is actually K&R ANSI C. Both the authors 
 changed the origial content and code to adapt to ANSI 1988 Specifications and addressed the 
-changes in the prologue of the book. However, readers are familiar with the name of K&R C.  
+changes in the prologue of the book. However, readers are familiar with the name of K&R C. 
 Users can use the following native or onine c compilers to run any c program.
 
 ## Native C Compiler 
