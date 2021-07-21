@@ -2,9 +2,9 @@
 Brian W. Kernighan, Dennis M. Ritchie
 
 The C Programming Language (or K&R C) Second Edition is actually K&R ANSI C. Both the authors 
-changed the origial content and code to adapt to ANSI 1988 Specifications in the prologue of 
-the book. However, readers are familiar with the name of K&R C.  Users can use the following 
-native or onine c compilers to run any c program.
+changed the origial content and code to adapt to ANSI 1988 Specifications and addressed the 
+changes in the prologue of the book. However, readers are familiar with the name of K&R C.  
+Users can use the following native or onine c compilers to run any c program.
 
 ## Native C Compiler 
 Tiny C Compiler - Fabrice Bellard
@@ -50,8 +50,7 @@ wikipedia: https://en.wikipedia.org/wiki/Tiny_C_Compiler
 
 Users can put the lines of code onto the plate of the following online c compilers and
 see the immediate result. Due to the subtly different checking system, users can use
-the two online c compilers to do the overlapping test on any doubted program.
-
+the two online c compilers to do the overlapping test on any doubted program. 
 
 1). tutorialspoint c compiler 
 
@@ -69,9 +68,9 @@ c. Click the button of Execute
 
 2). onlinegdb c compiler
 
-THe onlinedb has rich features including Stop, Debug and Upload. If any current program 
-has runtime error, it is necessary to click Stop and then users are allowed to paste a 
-new lines of code. 
+THe onlinedb has rich features including Interactivity, Stop, Debug and Upload. If any 
+current program has runtime error, it is necessary to click Stop and then users are 
+allowed to paste a new lines of code. 
 
 a. Open the online compiler
 
