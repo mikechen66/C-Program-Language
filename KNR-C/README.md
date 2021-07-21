@@ -1,8 +1,10 @@
-# The C Programming Language 2ED (K&R C)
+# The C Programming Language 2ED (K&R ANSI C)
 Brian W. Kernighan, Dennis M. Ritchie
 
-Users can use the following native or onine c compilers to run any c program. Users can 
-download the ebook from the designated weblink in the attached notes. 
+The C Programming Language (or K&R C) Second Edition is actually K&R ANSI C. Both the authors 
+changed the origial content and code to adapt to ANSI 1988 Specifications in the prologue of 
+the book. However, readers are familiar with the name of K&R C.  Users can use the following 
+native or onine c compilers to run any c program.
 
 ## Native C Compiler 
 Tiny C Compiler - Fabrice Bellard
