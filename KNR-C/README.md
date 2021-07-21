@@ -1,4 +1,4 @@
-# The C Programming Language 2ED (KNR C)
+# The C Programming Language 2ED (K&R C)
 Brian W. Kernighan, Dennis M. Ritchie
 
 Users can use the following native or onine c compilers to run any c program. Users can 
