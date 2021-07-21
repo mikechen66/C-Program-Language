@@ -23,4 +23,6 @@ https://sg1lib.org/book/2172511/e6f7a2?id=2172511&secret=e6f7a2
 
 https://github.com/Apress/pointers-c-programming
 
+https://www.gnu.org/software/libc/manual/pdf/libc.pdf
+
 https://www.it.uc3m.es/pbasanta/asng/course_notes/ctut.pdf
