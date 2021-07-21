@@ -8,7 +8,7 @@ C Language was originally designed for and implemented on the UNIX operating sys
 
 C gives programmers more control over where data is stored and how it is initialized than many languages do. C's lack of "safety net" features also contributes to its efficiency, but increases the likelihood of errors. For example, subscripts to arrays and accesses through pointers are not checked for validity, which saves time but makes it much more important that these features be used correctly. If the language is used with discipline, the potential problems can be avoided. 
 
-## Benefits of C Lanuage 
+## Benefits of C Language 
 
 1.The rich collection of operators provided in C give the programmer power to efficiently perform low-level computations, such as shifting and masking, without resorting to assembly language. These characteristics make C a good choice for implementing operating systems and low-level software for embedded controllers.
 
