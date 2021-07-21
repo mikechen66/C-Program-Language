@@ -16,6 +16,29 @@ C gives programmers more control over where data is stored and how it is initial
 
 3.C is the foundation upon which C++ is built. C++ provides a different view of program design and implementation than C. Nevertheless, a thorough knowledge of C skills and techniques, such as using pointers and the standard library, will also be useful for the C++ programmer. 
 
+## GNU C Library (glibc)
+
+Download sources 
+
+The code (with the size of 219 MB) will be doanloaded into the directory of /home/user with Ubuntu. 
+
+Checkout the latest glibc in development:
+
+    git clone https://sourceware.org/git/glibc.git
+    cd glibc
+    git checkout master
+    
+Releases are available by source branch checkout (gitweb) and tarball via ftp.
+
+Checkout the latest glibc 2.33 stable release:
+
+    git clone https://sourceware.org/git/glibc.git
+    cd glibc
+    git checkout release/2.33/master
+    
+Release tarballs are available via anonymous ftp at http://ftp.gnu.org/gnu/glibc/ and its mirrors.
+
+
 ## Resources
 
 GNU C Library Reference Manual
