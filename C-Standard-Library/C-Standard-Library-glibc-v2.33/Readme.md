@@ -1,4 +1,4 @@
-# GNU C Library v2.33 (glibc)
+# GNU C Library (glibc v2.33)
 
 ## Introduction
 
