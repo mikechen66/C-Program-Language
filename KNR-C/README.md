@@ -100,6 +100,10 @@ C Programming - Just the FAQs
 
 https://www.ee.iitb.ac.in/student/~bhush/C%20Programming%20-%20Just%20the%20FAQs.pdf
 
+A list of open source C libraries
+
+https://en.cppreference.com/w/c/links/libs
+
 Notes:
 
 If any program is obsolete, shall you please correct them and then run it. 
