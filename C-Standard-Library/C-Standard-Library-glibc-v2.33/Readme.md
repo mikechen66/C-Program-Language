@@ -23,11 +23,11 @@ Unix-like systems typically have a C library in shared library form. The C libra
 * Add <sys/platform/x86.h> to provide query macros for x86 CPU features.
 
 * Support for the RISC-V ISA running on Linux has been expanded to run on 32-bit hardware. The 32-bit RISC-V port requires at least Linux 5.4, GCC 7.1 and   binutils 2.28.This is supported for the following ISA and ABI pairs:
-* 
+
     - rv32imac ilp32
     - rv32imafdc ilp32
     - rv32imafdc ilp32d
-    - 
+    
 * A new fortification level _FORTIFY_SOURCE=3 is available. At this level, glibc may use additional checks that may have an additional performance overhead.  
 At present these checks are available only on LLVM 9 and later. The latest GCC available at this time (10.2) does not support this level of fortification.
 
@@ -60,6 +60,10 @@ http://ftp.gnu.org/gnu/glibc/
 
 https://sourceware.org/pipermail/libc-alpha/2021-February/122207.html
 
+The GNU C Library v1.5 (1996)
+
+http://kirste.userpage.fu-berlin.de/chemnet/use/info/libc/libc_toc.html
+
 ACM 
 
 http://www.acm.uiuc.edu/webmonkeys/book/c_guide/index.html
@@ -68,17 +72,14 @@ ISO C Working Group
 
 http://www.open-std.org/jtc1/sc22/wg14/
 
-Wiki
-
-https://en.wikipedia.org/wiki/C_standard_library
+GNU C Library with Wiki
 
 https://en.wikipedia.org/wiki/GNU_C_Library
-
 
 Internal Pointers 
 
 https://www.internalpointers.com/post/c-c-standard-library
 
-Man:
+Man Documentation:
 
 https://en.wikipedia.org/wiki/Man_page
