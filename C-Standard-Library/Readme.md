@@ -15,7 +15,7 @@ Unix-like systems typically have a C library in shared library form. The C libra
 On Microsoft Windows, the core system dynamic libraries (DLLs) provide an implementation of the C standard library for the Microsoft Visual C++ compiler v6.0; the C standard library for newer versions of the Microsoft Visual C++ compiler is provided by each compiler individually, as well as redistributable packages. Compiled applications written in C are either statically linked with a C library, or linked to a dynamic version of the library that is shipped with these applications, rather than relied upon to be present on the targeted systems. Functions in a compiler's C library are not regarded as interfaces to Microsoft Windows.
 
 
-## C Standard Libraries
+## C Standard Library Reference 
 
 ### GNU C Library (glibc)
 Download sources
@@ -39,7 +39,7 @@ Checkout the latest glibc 2.33 stable release:
 
 ### C Standard Library by Plauger 
 
-It contains all the source code from "The Standard C Library", by P.J. Plauger (1992). It corrects a number of errors reported after publication. Hence, the code may differ from the original book in small ways.
+It contains all the source code from "The Standard C Library", by P.J. Plauger (1992). It corrects a number of errors reported after publication. Hence, the code may differ from the original book in small ways because of its long-publised date. 
 
 
 ## Library Resources
