@@ -4,13 +4,13 @@
 
 The C Standard Library, also known as ISO C Library is a collection of macros, types and functions for tasks such as input/output processing, string handling, memory management, mathematical computations and many other operating system services. It is specified in the C standard, e.g. the C11 standard. However, it is hard to get the C standard libraries in the web. It can be provided by both the compilers, and the OS providers and the third-party experts. Users will have to check the compiler documentation if it is using the OS-provided library implementation or an implementation that is bundled with the compiler. For one and the same compiler, this can be different per OS or compiler build. 
 
-## Libraries Distributed 
+## Library Distributed 
 
-### Libraries for Unix-like Systems 
+### C Standard Library for Unix-like Systems 
 
 Unix-like systems typically have a C library in shared library form. The C library is considered part of the operating system on Unix-like systems including Linux, MacOS, Android. The C functions, including the ISO C standard ones, are widely used by programs, and are regarded as if they were not only an implementation of something in the C language, but also de facto part of the operating system interface. Further, the kernel itself (at least in the case of Linux) operates independently of any libraries.
 
-### Library for Windows 
+### C Standard Library for Windows 
 
 On Microsoft Windows, the core system dynamic libraries (DLLs) provide an implementation of the C standard library for the Microsoft Visual C++ compiler v6.0; the C standard library for newer versions of the Microsoft Visual C++ compiler is provided by each compiler individually, as well as redistributable packages. Compiled applications written in C are either statically linked with a C library, or linked to a dynamic version of the library that is shipped with these applications, rather than relied upon to be present on the targeted systems. Functions in a compiler's C library are not regarded as interfaces to Microsoft Windows.
 
