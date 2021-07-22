@@ -20,24 +20,26 @@ On Microsoft Windows, the core system dynamic libraries (DLLs) provide an implem
 ### GNU C Library (glibc)
 Download sources
 
-After your checkout in accordance with the following commands, the source code with the size of 219 MB will be doanloaded into the directory of /home/user with the Linux such as Ubuntu. Please see the commands of GNU weblink.
+After your checkout in accordance with the following commands, the source code with the size of 219 MB will be doanloaded into the directory of /home/user with the Linux such as Ubuntu. Please see the commands of [GNU weblink](https://www.gnu.org/software/libc/sources.html).
 
 Checkout the latest glibc in development:
 
-git clone https://sourceware.org/git/glibc.git
-cd glibc
-git checkout master
+    git clone https://sourceware.org/git/glibc.git
+    cd glibc
+    git checkout master
+
 Releases are available by source branch checkout (gitweb) and tarball via ftp.
 
 Checkout the latest glibc 2.33 stable release:
 
-git clone https://sourceware.org/git/glibc.git
-cd glibc
-git checkout release/2.33/master
-Release tarballs are availab
+    git clone https://sourceware.org/git/glibc.git
+    cd glibc
+    git checkout release/2.33/master
+
 
 ### C Standard Library by Plauger 
-It contains all the source code from "The Standard C Library", by P.J. Plauger (Englewood Cliffs, N.J.: Prentice-Hall, 1992). It correctsa number of errors reported after publication. Hence, the code may differ from the book in small ways.
+
+It contains all the source code from "The Standard C Library", by P.J. Plauger (1992). It corrects a number of errors reported after publication. Hence, the code may differ from the original book in small ways.
 
 
 ## Library Resources
@@ -68,7 +70,3 @@ https://www.internalpointers.com/post/c-c-standard-library
 Man:
 
 https://en.wikipedia.org/wiki/Man_page
-
-
-
-
