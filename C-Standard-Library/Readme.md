@@ -58,6 +58,10 @@ ISO C Working Group
 
 http://www.open-std.org/jtc1/sc22/wg14/
 
+Open Source Library List
+
+https://en.cppreference.com/w/c/links/libs
+
 Wiki
 
 https://en.wikipedia.org/wiki/C_standard_library
