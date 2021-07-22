@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The GNU C Library version 2.33 is now available. The term "glibc" is commonly used as a shorthand for the "gnu standard C library. The GNU C Library is used as *the* C library in the GNU system and in GNU/Linux systems, as well as many other systems that use Linux as the kernel. The GNU C Library is primarily designed to be a portable and high performance C library.  It follows all relevant standards including ISO C11 and POSIX.1-2017. It is also internationalized and has one of the most complete internationalization interfaces known.
+The GNU C Library version 2.33 is now available. The term "glibc" is commonly used as a shorthand for the "gnu standard C library". The GNU C Library is used as *the* C library in the GNU system and in GNU/Linux systems, as well as many other systems that use Linux as the kernel. The GNU C Library is primarily designed to be a portable and high performance C library.  It follows all relevant standards including ISO C11 and POSIX.1-2017. It is also internationalized and has one of the most complete internationalization interfaces known.
 
 ## GNU C Library for Unix-like Systems 
 
