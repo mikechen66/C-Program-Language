@@ -18,27 +18,18 @@ Unix-like systems typically have a C library in shared library form. The C libra
 
 * The new --help option of the dynamic linker provides usage and information and library search path diagnostics.
 
-* The mallinfo2 function is added to report statistics as per mallinfo,
-  but with larger field widths to accurately report values that are
-  larger than fit in an integer.
+* The mallinfo2 function is added to report statistics as per mallinfo,but with larger field widths to accurately report values that are larger than fit in an integer.
 
 * Add <sys/platform/x86.h> to provide query macros for x86 CPU features.
 
-* Support for the RISC-V ISA running on Linux has been expanded to run on
-  32-bit hardware.  This is supported for the following ISA and ABI pairs:
-
+* Support for the RISC-V ISA running on Linux has been expanded to run on 32-bit hardware. The 32-bit RISC-V port requires at least Linux 5.4, GCC 7.1 and   binutils 2.28.This is supported for the following ISA and ABI pairs:
+* 
     - rv32imac ilp32
     - rv32imafdc ilp32
     - rv32imafdc ilp32d
-
-  The 32-bit RISC-V port requires at least Linux 5.4, GCC 7.1 and binutils
-  2.28.
-
-* A new fortification level _FORTIFY_SOURCE=3 is available.  At this level,
-  glibc may use additional checks that may have an additional performance
-  overhead.  At present these checks are available only on LLVM 9 and later.
-  The latest GCC available at this time (10.2) does not support this level of
-  fortification.
+    - 
+* A new fortification level _FORTIFY_SOURCE=3 is available. At this level, glibc may use additional checks that may have an additional performance overhead.  
+At present these checks are available only on LLVM 9 and later. The latest GCC available at this time (10.2) does not support this level of fortification.
 
 ## GNU C Library (glibc)
 
