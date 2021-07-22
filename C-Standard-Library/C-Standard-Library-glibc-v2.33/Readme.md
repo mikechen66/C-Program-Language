@@ -28,8 +28,7 @@ Unix-like systems typically have a C library in shared library form. The C libra
     - rv32imafdc ilp32
     - rv32imafdc ilp32d
     
-* A new fortification level _FORTIFY_SOURCE=3 is available. At this level, glibc may use additional checks that may have an additional performance overhead.  
-At present these checks are available only on LLVM 9 and later. The latest GCC available at this time (10.2) does not support this level of fortification.
+* A new fortification level _FORTIFY_SOURCE=3 is available. At this level, glibc may use additional checks that may have an additional performance overhead. At present these checks are available only on LLVM 9 and later. The latest GCC available at this time (10.2) does not support this level of fortification.
 
 ## GNU C Library (glibc)
 
