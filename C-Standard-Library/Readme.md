@@ -50,7 +50,7 @@ GNU Library
 
 https://www.gnu.org/software/libc/
 
-ACM 
+ACM C Guiude Online (1997) 
 
 http://www.acm.uiuc.edu/webmonkeys/book/c_guide/index.html
 
