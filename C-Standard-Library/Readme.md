@@ -46,7 +46,7 @@ It contains all the source code from "The Standard C Library", by P.J. Plauger (
 
 ## Library Resources
 
-GNU Library
+GNU libc Library
 
 https://www.gnu.org/software/libc/
 
