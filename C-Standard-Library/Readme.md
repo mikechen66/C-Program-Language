@@ -41,7 +41,7 @@ Release tarballs are available via anonymous ftp at [glibc](http://ftp.gnu.org/g
 
 ### C Standard Library by Plauger 
 
-It contains all the source code from "The Standard C Library", by P.J. Plauger (1992). It corrects a number of errors reported after publication. Hence, the code may differ from the original book in small ways because of its long-publised date. 
+It contains all the source code from "The Standard C Library", by P.J. Plauger (1992). It corrects a number of errors reported after publication. Hence, the code may differ from the original book in small ways because of its long-publised date. Please take the [C Standard Library library 1992](https://github.com/mikechen66/C-Programming/tree/main/C-Standard-Library/C-Standard-Library-1992) for reference. 
 
 
 ## Library Resources
