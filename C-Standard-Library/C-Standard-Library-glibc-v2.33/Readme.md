@@ -10,14 +10,13 @@ Unix-like systems typically have a C library in shared library form. The C libra
 
 ## Major new features:
 
-The dynamic linker accepts the --list-tunables argument which prints all the supported tunables.  This option is disable if glibc is configured with tunables disabled (--enable-tunables=no).
+* The dynamic linker accepts the --list-tunables argument which prints all the supported tunables.  This option is disable if glibc is configured with tunables disabled (--enable-tunables=no).
 
-The dynamic linker accepts the --argv0 argument and provides opportunity to change argv[0] string.
+* The dynamic linker accepts the --argv0 argument and provides opportunity to change argv[0] string.
 
-The dynamic linker loads optimized implementations of shared objects from subdirectories under the glibc-hwcaps directory on the library search path if the system's capabilities meet the requirements for that subdirectory...In the x86_64-linux-gnu case, the subdirectory names correspond to the vendor-independent x86-64
-microarchitecture levels defined in the x86-64 psABI supplement.
+* The dynamic linker loads optimized implementations of shared objects from subdirectories under the glibc-hwcaps directory on the library search path if the system's capabilities meet the requirements for that subdirectory...In the x86_64-linux-gnu case, the subdirectory names correspond to the vendor-independent x86-64 microarchitecture levels defined in the x86-64 psABI supplement.
 
-The new --help option of the dynamic linker provides usage and information and library search path diagnostics.
+* The new --help option of the dynamic linker provides usage and information and library search path diagnostics.
 
 * The mallinfo2 function is added to report statistics as per mallinfo,
   but with larger field widths to accurately report values that are
@@ -92,7 +91,3 @@ https://www.internalpointers.com/post/c-c-standard-library
 Man:
 
 https://en.wikipedia.org/wiki/Man_page
-
-
-
-
