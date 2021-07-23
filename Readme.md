@@ -84,3 +84,7 @@ http://infolab.stanford.edu/~ullman/fcsc-figures.html
 Programming in C
 
 http://users.cs.cf.ac.uk/Dave.Marshall/C/
+
+The New C Standard 
+
+http://www.coding-guidelines.com/cbook/cbook1_2.pdf
