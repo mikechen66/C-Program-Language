@@ -62,7 +62,7 @@ Open Source Library List
 
 https://en.cppreference.com/w/c/links/libs
 
-Wiki
+Wikipedia
 
 https://en.wikipedia.org/wiki/C_standard_library
 
