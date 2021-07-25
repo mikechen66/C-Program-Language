@@ -1,4 +1,4 @@
-/* xtinfo-h internal header */
+/* xtinfo.h internal header */
 /* type definitions */
 
 typedef struct {
