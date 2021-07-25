@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The C Standard Library, known as ISO C Library is a collection of macros, types and functions for the tasks such as input/output processing, string handling, memory management, mathematical computations and many other operating system services. It is specified in the C standard, e.g. the C11 standard. However, it is hard to get a standalone C standard libraries in the web. The C standard libraries are usually provided by compilers and OS providers. Users will have to check the compiler documentation if it is using the OS-provided library implementation or an implementation that is bundled with the compiler. For one and the same compiler, this can be different per OS or compiler build. 
+The C Standard Library, known as ISO C Library is a collection of macros, types and functions for the tasks such as input/output processing, string handling, memory management, mathematical computations and many other operating system services. It is specified in the C standard, e.g. the C11 standard. However, it is hard to get a standalone C standard library in the web. The C standard libraries are usually provided by compilers and OS providers. Users will have to check the compiler documentation if it is using the OS-provided library implementation or an implementation that is bundled with the compiler. For one and the same compiler, this can be different per OS or compiler build. 
 
 ## Library Distributed 
 
