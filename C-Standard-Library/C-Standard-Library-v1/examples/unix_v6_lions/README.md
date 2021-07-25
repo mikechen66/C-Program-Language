@@ -3,7 +3,7 @@ Ken Thompson, Dennis Ritchie, John Lions
 
 ## Prologue 
 
-For Ken Thompson and Dennis Ritchie: ars longa vita brevis (Greek). Ken and Dennis created the souce code and John had a perfect commentary on the 6th version, lightly edited by Lions to better sererte the functionality system initialization and process management, interrupts and system calls, basic I/O, file systems and pipes and character devices. The classical source code has built the foundation of the operating systems including Mach, BSD, Linux, MacOS and Windows.  
+For Ken Thompson and Dennis Ritchie: ars longa vita brevis (Greek). Ken and Dennis created the souce code and John had a perfect commentary on the 6th version, lightly edited by John to better sererte the functionality system initialization and process management, interrupts and system calls, basic I/O, file systems and pipes and character devices. The classical source code has built the solid foundation of the operating systems including Mach, BSD, Linux, MacOS and Windows.  
 
 ## Interlude
 
