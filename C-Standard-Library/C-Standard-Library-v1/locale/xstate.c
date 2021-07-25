@@ -1,4 +1,5 @@
 /* _Costate, _Mbstate, and _Wcstate generic tables */
+
 #include <limits.h>
 #include "xlocale.h"
 
@@ -51,4 +52,3 @@ char _Mbcurmax = 1;
 _Statab _Costate = {{&tab0[1]}};
 _Statab _Mbstate = {{&tab0[1]}};
 _Statab _Wcstate = {{&tab0[1]}};
-
