@@ -1,4 +1,4 @@
-# The C Standard Library -2ED
+# The C Standard Library - 2ED
 P.J. Plauger (1992)
 
 ## Introduction
@@ -13,22 +13,11 @@ book.
 Fifteen subdirectories match the standard headers. These contain all the *.c 
 files presented in the text. The directory _test contains all the t*.c files 
 presented as test programs throughout the text. All of the code are converted 
-to the indentation of spaces. 
+to the indentation of spaces. It has the directories including _unixvax for 
+the ULTRIX, _unix68k for Sun UNIX (680X0) and _tc86 for Turbo C++ compiler.
 
-### UNIX VAX
-The directory _unixvax replicates a number of these files. It also contains
-the sample version of raise.c described in the running text for the ULTRIX
-(UNIX VAX) operating system. 
+## Examples
 
-### _unix68k
-
-The directory contains dirty versions of these files - with the conventional 
-UNIX names for systey calls. It also contains the file yvals.h modified for 
-the GCC compiler on Sun UNIX (680X0) workstations. That version of yvals.h 
-shows how to define _CPS if you wish to use the UNIX time system call directly. 
-
-### _tc86 
-
-It contains the files that must be modified for the Turbo C++ (ANSI C)
-compiler. Finaly, the directory _dummy contains simple versions of several
-files. Typically, these define functions that can fail all the time. 
+Some of the subdirectories including the file of float including the practical 
+examples enquires.c and paranoia.c. Each of programs has more than 1000 lines of 
+code. It is useful for a further learning and understanding of C languages. 
