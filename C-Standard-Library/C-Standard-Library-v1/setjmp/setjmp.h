@@ -5,10 +5,10 @@
 #ifndef _YVALS
 #include <yvals.h>
 #endif
-/* macros */
+        /* macros */
 #define setjmp(env) _Setjmp(env)
-/* type definitions */
+        /* type definitions */
 typedef int jmp_buf[_NSETJMP];
-/* declarations */
+        /* declarations */
 void longjmp(jmp_buf, int);
 #endif
