@@ -15,9 +15,9 @@ ISO C11 standard because Fabrice is no longer to update Tiny C Compiler.
 
 1). install tiny c compiler
 
-$ sudo apt update
+    $ sudo apt update
 
-$ sudo apt install tcc
+    $ sudo apt install tcc
 
 It will be installed in the directory as follows in the Linux.
 
@@ -25,9 +25,9 @@ It will be installed in the directory as follows in the Linux.
 
 2). Call the c program
 
-$ cd /home/user/Documents/cprograms
+    $ cd /home/user/Documents/cprograms
 
-$ tcc -run hello.c
+    $ tcc -run hello.c
 
 Hello World
 
@@ -36,9 +36,9 @@ Hello World
 
 Usage - option, read from the stdio 
 
-echo 'main(){puts("Hello World");}' | tcc -run -
+    echo 'main(){puts("Hello World");}' | tcc -run -
 
-Hello World
+    Hello World
 
 Please see the following weblink for reference.
 
