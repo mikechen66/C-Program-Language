@@ -1,8 +1,8 @@
 /* x5tate.h internal header */
 /* macros for finite state machines */
 
-#define ST_CH       OxOOf f
-#define ST_STATE    OxOfOO
+#define ST_CH       0x00ff
+#define ST_STATE    0x0f00
 #define ST_STOFF    8
 #define ST_FOLD     0x8000
 #define ST_INPUT    0x4000
