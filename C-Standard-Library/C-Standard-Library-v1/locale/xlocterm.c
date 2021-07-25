@@ -20,17 +20,17 @@ static const char uppers[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 static short vars[sizeof (uppers) - 1] = {0};
 
 int _Locvar(char ch, short val)
-    {   /* set a $ variable */
+{   /* set a $ variable */
     const char *s = strchr(uppers, ch);
 
     if (s == NULL)
         return (0);
     vars[s - uppers] = val;
     return (1);
-    }
+}
 
  int _Locterm(const char **ps, unsigned short *ans)
-    {   /* evaluate a term on a locale file line */
+{   /* evaluate a term on a locale file line */
     const char *s = *ps;
     const char *s1;
     int mi;
@@ -52,5 +52,4 @@ int _Locvar(char ch, short val)
         *ans = -*ans;
     *ps = _Skip(s - 1);
     return (1);
-    }
-
+}

@@ -30,8 +30,8 @@ int _Makeloc(FILE *lf, char *buf, _Linfo *p)
                 if (NEWADDR(p, q, char *))
                     free(ADDR(p, q, char *));
                 if (s[0] == '"'
-                    && (s1 = strrchr(s + 1, '"')) != NULL
-                    && *_Skip(s1) == '\0')
+                        && (s1 = strrchr(s + 1, '"')) != NULL
+                        && *_Skip(s1) == '\0')
                     *s1 = '\0', ++s;
                 if ((s1 = (char *)malloc(strlen(s) + 1)) == NULL)
                     return (0);
@@ -43,7 +43,7 @@ int _Makeloc(FILE *lf, char *buf, _Linfo *p)
                 break;
             case L_TABLE:   /* alter a translation table */
             case L_STATE:   /* alter a state table */
-            {  /* process tab[#,lo:hi] $x expr */
+                {  /* process tab[#,lo:hi] $x expr */
                 int inc = 0;
                 unsigned short hi, lo, stno, *usp, **uspp;
 
@@ -79,7 +79,7 @@ int _Makeloc(FILE *lf, char *buf, _Linfo *p)
                 else
                     usp = (*uspp)[-1] ? *uspp : NULL;
                 if (usp == NULL)
-                {   /* setup a new table */
+                    {   /* setup a new table */
                     if ((usp = (unsigned short *)malloc(TABSIZ))
                             == NULL)
                         return (0);
@@ -87,11 +87,12 @@ int _Makeloc(FILE *lf, char *buf, _Linfo *p)
                     if (q->_Code == L_STATE)
                         usp[0] = 1; /* allocation flag */
                     *uspp = &usp[1];
-                }
+                    }
                 for (; lo <= hi; ++lo)
                     usp[lo] = val + (inc & 1 ? lo : 0)
                         + (inc & 2 ? usp[lo] : 0);
                 break;
+                }
             case L_VALUE:   /* alter a numeric value */
                 if ((s = getval(s, &val)) == NULL || *s != '\0')
                     return (0);
