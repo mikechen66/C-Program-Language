@@ -11,7 +11,7 @@ Unix 6th Edition was released as a distribution including the full source code. 
 
 ## Epilogue
 
-Ars longa, vita brevis is a Latin translation of an aphorism coming originally from Greek, roughly meaning, "skilfulness takes time and life is short". Following the the well-know saying, Opportunity fleeting, experimentations perilous, and judgment difficult. The good metarial is a classical example for code learning. Any programmer who wants to know C needs to understand how it created and constructed to build the Unix Operating System. That is the motto for every programmer. 
+Ars longa, vita brevis is a Latin translation of an aphorism coming originally from Greek, roughly meaning, "Life is short and life is short". Following the the well-know saying, opportunity fleeting, experimentations perilous, and judgment difficult. The good metarial is a classical example for code learning. Any programmer who wants to know C needs to understand how it created and constructed to build the Unix Operating System. That is the motto for every programmer. 
 
 ## Reference
 
