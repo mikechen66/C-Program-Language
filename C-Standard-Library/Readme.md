@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The C Standard Library, also known as ISO C Library is a collection of macros, types and functions for the tasks such as input/output processing, string handling, memory management, mathematical computations and many other operating system services. It is specified in the C standard, e.g. the C11 standard. However, it is hard to get the C standard libraries in the web. It can be provided by both the compilers, and the OS providers and the third-party experts. Users will have to check the compiler documentation if it is using the OS-provided library implementation or an implementation that is bundled with the compiler. For one and the same compiler, this can be different per OS or compiler build. 
+The C Standard Library, known as ISO C Library is a collection of macros, types and functions for the tasks such as input/output processing, string handling, memory management, mathematical computations and many other operating system services. It is specified in the C standard, e.g. the C11 standard. However, it is hard to get a standalone C standard libraries in the web. The C standard libraries are usually provided by compilers and OS providers. Users will have to check the compiler documentation if it is using the OS-provided library implementation or an implementation that is bundled with the compiler. For one and the same compiler, this can be different per OS or compiler build. 
 
 ## Library Distributed 
 
@@ -13,7 +13,6 @@ Unix-like systems typically have a C library in shared library form. The C libra
 ### C Standard Library for Windows 
 
 On Microsoft Windows, the core system dynamic libraries (DLLs) provide an implementation of the C standard library for the Microsoft Visual C++ compiler v6.0; the C standard library for newer versions of the Microsoft Visual C++ compiler is provided by each compiler individually, as well as redistributable packages. Compiled applications written in C are either statically linked with a C library, or linked to a dynamic version of the library that is shipped with these applications, rather than relied upon to be present on the targeted systems. Functions in a compiler's C library are not regarded as interfaces to Microsoft Windows.
-
 
 ## C Standard Library Reference 
 
