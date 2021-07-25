@@ -20,6 +20,6 @@ the ULTRIX, _unix68k for Sun UNIX (680X0) and _tc86 for Turbo C++ compiler
 ## Examples
 
 Some of the sub-directories including the file of float including the practical 
-examples such as enquires.c and paranoia.c. Each of programs has more than 1000
+examples such as enquire.c and paranoia.c. Each of programs has more than 1000
 lines of code. It is quite useful for a further learning and understanding of C 
 languages. 
