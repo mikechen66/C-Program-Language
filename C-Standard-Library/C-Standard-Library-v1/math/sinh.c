@@ -37,13 +37,13 @@ double (sinh)(double x)
             if (x < _Rteps._D)
                 ;   /* x tiny */
             else if (x < 1.0)
-                {   /* |x| < 1 */
+            {   /* |x| < 1 */
                 const double y = x * x;
 
                 x += x * y
                     * (((p[0] * y + p[1]) * y + p[2]) * y + p[3])
                     / (((q[0] * y + q[1]) * y + q[2]) * y + q[3]);
-                }
+            }
             else if (0 <= _Exp(&x, -1))
                 errno = ERANGE; /* x large */
             else if (x < _Xbig._D)
