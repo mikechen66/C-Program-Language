@@ -23,3 +23,9 @@ Some of the sub-directories including the file of float including the practical
 examples such as enquire.c and paranoia.c. Each of programs has more than 1000
 lines of code. It is quite useful for a further learning and understanding of C 
 languages. 
+
+## References
+
+Stanford CSLIB (classes and headers in C)
+
+https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1136/materials/cppdoc/
