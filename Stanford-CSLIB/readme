@@ -1,15 +1,16 @@
+# Stanford CLSIB 
 
-________________________________________________________________________
+## Introduction
 
-Welcome!  You have reached the top-level directory in the FTP archive
+You have reached the top-level directory in the FTP archive
 designed for use with the text "The Art and Science of C: A Library-
 Based Approach" (Addison-Wesley, 1995) and Programming Abstractions
-\in C: A Second Course in Computer Science, both by Eric Roberts.
+in C: A Second Course in Computer Science, both by Eric Roberts.
 From here, you can get access to the source code for the libraries used
 in the books along with several other resources both for those teaching
 from the texts and for those learning from them.
 
-NOTES ON THE LIBRARIES
+## NOTES ON THE LIBRARIES
 
 To make it possible to teach ANSI C at the introductory level, "The Art
 and Science of C" is designed around several special libraries --
@@ -28,6 +29,8 @@ graphics library, it doesn't matter what version of cslib you get --
 screen images depend on the hardware and software configuration of each
 computer, you need an implementation of the graphics library that is
 appropriate to your computing environment.
+
+## Version Selection 
 
 TO FIND THE RIGHT VERSION OF THE CSLIB LIBRARY FOR YOUR COMPUTING
 PLATFORM:
@@ -73,10 +76,10 @@ PLATFORM:
     the simplified version of the library, which provides the minimum
     level of support necessary to run the programs in the text.
 
-SUBDIRECTORY INDEX
+## SUBDIRECTORY INDEX
 
 The Roberts.CS1.C directory itself contains no files other than a README
-file.  The files you need for the various libraries are collected in the
+file. The files you need for the various libraries are collected in the
 following subdirectories, each of which has its own README file for
 further information:
 
@@ -165,13 +168,9 @@ programs       This subdirectory contains electronic copies of all
                exercises, please contact your Addison-Wesley
                representative.
 
-NOTES AND DISCLAIMERS
+## NOTES AND DISCLAIMERS
 
 The cslib libraries are in the public domain and may be freely copied
 and distributed, although they remain under development.  No warranties
 are made concerning their correctness or stability, and no user support
-is guaranteed.  Bug reports and suggestions, however, are appreciated
-and may be sent to
-
-                      Eric Roberts <ericr@aw.com>
-
+is guaranteed. 
