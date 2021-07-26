@@ -53,6 +53,10 @@ ACM C Guiude Online (1997)
 
 http://www.acm.uiuc.edu/webmonkeys/book/c_guide/index.html
 
+Stanford CSLIB (classes and headers in C) 
+
+https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1136/materials/cppdoc/
+
 ISO C Working Group
 
 http://www.open-std.org/jtc1/sc22/wg14/
