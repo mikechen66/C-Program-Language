@@ -28,12 +28,12 @@ short _Exp(double *px, short eoff)
     else
         neg = 0;
     if (hugexp < *px)
-        {   /* certain underflow or overflow */
+    {   /* certain underflow or overflow */
         *px = neg ? 0.0 : _Inf._D;
         return (neg ? 0 : INF);
-        }
+    }
     else
-        {   /* xexp won't overflow */
+    {   /* xexp won't overflow */
         double g = *px * invln2;
         short xexp = (short)(g + 0.5);
 
@@ -42,16 +42,16 @@ short _Exp(double *px, short eoff)
         if (-_Rteps._D < g && g < _Rteps._D)
             *px = 1.0;
         else
-            {   /* g*g worth computing */
+        {   /* g*g worth computing */
             const double y = g * g;
 
             g *= (p[0] * y + p[1]) * y + p[2];
             *px = 0.5 + g / (((q[0] * y + q[1]) * y + q[2]) * y
                 + q[3] - g);
             ++xexp;
-            }
+        }
         if (neg)
             *px = 1.0 / *px, xexp = -xexp;
         return (_Dscale(px, eoff + xexp));
-        }
+    }
 }
