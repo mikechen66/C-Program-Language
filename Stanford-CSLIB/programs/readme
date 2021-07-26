@@ -1,14 +1,25 @@
-README file for the programs subdirectory
-Last modified on Thu Oct 20 00:01:22 1994 by eroberts
-________________________________________________________________________
+
 
 The programs subdirectory contains all of the sample programs used in
 this text, arranged into subdirectories by chapter, as follows:
 
-     02-Learning-by-Example 03-Problem-Solving 04-Statement-Forms 05-
-     Functions 06-Algorithms 07-Graphics 08-Random-Numbers 09-Strings
-     10-Modular-Development 11-Arrays 12-Sorting 13-Pointers 14-
-     Strings-Revisited 15-Text-Files 16-Records 17-Looking-Ahead
+     01-Introduction 
+     02-Learning-by-Example 
+     03-Problem-Solving 
+     04-Statement-Forms 
+     05-Functions 
+     06-Algorithms 
+     07-Graphics 
+     08-Random-Numbers
+     09-Strings
+     10-Modular-Development 
+     11-Arrays 
+     12-Sorting 
+     13-Pointers 
+     14-Strings-Revisited
+     15-Text-Files 
+     16-Records 
+     17-Looking-Ahead
 
 In addition to the source files, each chapter directory also contains a
 Unix-style Makefile that creates each of the applications.  On systems
