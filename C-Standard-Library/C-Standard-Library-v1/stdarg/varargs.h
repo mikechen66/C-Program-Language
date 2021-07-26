@@ -1,4 +1,4 @@
-varargs.h   [plain text]
+/* varargs.h   [plain text] */
 /*
  * Copyright (c) 2000 Apple Computer, Inc. All rights reserved.
  *
