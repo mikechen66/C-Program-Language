@@ -12,7 +12,8 @@ static const double pows[] = {
 #if 0x100 < _DBIAS  /* assume IEEE 754 8-byte */
     1e64, 1e128, 1e256,
 #endif
-    };
+};
+
 static const size_t npows = NPOWS;
 
 static short dmul(double *px, double y)
@@ -34,7 +35,7 @@ double _Dtento(double x, short n)
         return (x);
     factor = 1.0;
     if (n < 0)
-        {   /* scale down */
+    {   /* scale down */
         unsigned int nu = -(unsigned int)n;
 
         for (i = 0; 0 < nu && i < npows; nu >>= 1, ++i)
@@ -45,9 +46,9 @@ double _Dtento(double x, short n)
             for (factor = 1.0 / pows[npows]; 0 < nu; --nu)
                 if (0 <= (errx = dmul(&x, factor)))
                     break;
-        }
+    }
     else if (0 < n)
-        {   /* scale up */
+    {   /* scale up */
         for (i = 0; 0 < n && i < npows; n >>= 1, ++i)
             if (n & 1)
                 factor *= pows[i];
@@ -56,7 +57,7 @@ double _Dtento(double x, short n)
             for (factor = pows[npows]; 0 < n; --n)
                 if (0 <= (errx = dmul(&x, factor)))
                     break;
-        }
+    }
     if (0 <= errx)
         errno = ERANGE;
     return (x);
