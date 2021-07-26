@@ -29,46 +29,46 @@ double _Log(double x, int decflag)
             return (x);
         case INF:
             if (DSIGN(x))
-                {   /* -INF */
+            {   /* -INF */
                 errno = EDOM;
                 return (_Nan._D);
-                }
+            }
             else
-                {   /* INF */
+            {   /* INF */
                 errno = ERANGE;
                 return (_Inf._D);
-                }
+            }
         case 0:
             errno = ERANGE;
             return (-_Inf._D);
         default:    /* finite */
             if (x < 0.0)
-                {   /* ln(negative) undefined */
+            {   /* ln(negative) undefined */
                 errno = EDOM;
                 return (_Nan._D);
-                }
+            }
             else
-                {   /* 1/2 <= x < 1 */
+            {   /* 1/2 <= x < 1 */
                 double z = x - 0.5;
                 double w;
         
                 if (rthalf < x)
                     z = (z - 0.5) / (x * 0.5 + 0.5);
                 else
-                    {   /* x <= sqrt(1/2) */
+                {   /* x <= sqrt(1/2) */
                     --xexp;
                     z /= (z * 0.5 + 0.5);
-                    }
+                }
                 w = z * z;
                 z += z * w * ((p[0] * w + p[1]) * w + p[2])
                     / (((w + q[0]) * w + q[1]) * w + q[2]);
                 if (xexp != 0)
-                    {   /* form z += ln2 * xexp safely */
+                {   /* form z += ln2 * xexp safely */
                     const double xn = (double)xexp;
         
                     z = (xn * c2 + z) + xn * c1;
-                    }
+                }
                 return (decflag ? loge * z : z);
-        }
+            }
     }
 }
