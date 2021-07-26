@@ -41,26 +41,26 @@ double _Sin(double x, unsigned int qoff)
             errno = EDOM;
             return (_Nan._D);
         default:    /* finite */
-             {  /* compute sin/cos */
+        {  /* compute sin/cos */
             double g;
             long quad;
 
             if (x < -HUGE_RAD || HUGE_RAD < x)
-                {   /* x huge, sauve qui peut */
+            {   /* x huge, sauve qui peut */
                 g = x / twopi;
                 _Dint(&g, 0);
                 x -= g * twopi;
-                }
+            }
             g = x * twobypi;
             quad = (long)(0 < g ? g + 0.5 : g - 0.5);
             qoff += (unsigned long)quad & 0x3;
             g = (double)quad;
             g = (x - g * c1) - g * c2;
             if ((g < 0.0 ? -g : g) < _Rteps._D)
-                {   /* sin(tiny)==tiny, cos(tiny)==1 */
+            {   /* sin(tiny)==tiny, cos(tiny)==1 */
                 if (qoff & 0x1)
                     g = 1.0;    /* cos(tiny) */
-                }
+            }
             else if (qoff & 0x1)
                 g = _Poly(g * g, c, 7);
             else
