@@ -63,6 +63,10 @@ The GNU C Library v1.5 (1996)
 
 http://kirste.userpage.fu-berlin.de/chemnet/use/info/libc/libc_toc.html
 
+Stanford CSLIB (classes and headers in C)
+
+https://web.stanford.edu/class/archive/cs/cs106b/cs106b.1136/materials/cppdoc/
+
 ACM 
 
 http://www.acm.uiuc.edu/webmonkeys/book/c_guide/index.html
