@@ -8,21 +8,20 @@ short _Dunscale(short *pex, double *px)
     short xchar = (ps[_D0] & _DMASK) >> _DOFF;
 
     if (xchar == _DMAX)
-        {   /* NaN or INF */
+    {   /* NaN or INF */
         *pex = 0;
         return (ps[_D0] & _DFRAC || ps[_D1]
             || ps[_D2] || ps[_D3] ? NAN : INF);
-        }
+    }
     else if (0 < xchar || (xchar = _Dnorm(ps)) <= 0)
-        {   /* finite, reduce to [1/2, 1) */
+    {   /* finite, reduce to [1/2, 1) */
         ps[_D0] = ps[_D0] & ~_DMASK | _DBIAS << _DOFF;
         *pex = xchar - _DBIAS;
         return (FINITE);
-        }
+    }
     else
-        {   /* zero */
+    {   /* zero */
         *pex = 0;
         return (0);
-        }
+    }
 }
-
