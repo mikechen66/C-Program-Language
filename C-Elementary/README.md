@@ -1,6 +1,49 @@
-# Operating System
+# C Programming - A Modern Approach
+K. N. King
 
 ## Overview
+
+Suitable for students at the elementary level, C Programming: A Modern Approach covers the C language as no book has before. Even C's most difficult concepts are easy to learn, due to the book's lucid explanations, carefully graded examples, and many helpful figures. The 2nd Edition brings it up to date with coverage of the C99 standard. 
+
+## Brief Contents
+
+### Basic Features of C
+
+1 Introducing C 1
+2 C Fundamentals 9
+3 Formatted Input/Output 37
+4 Expressions 53
+5 Selection Statements 73
+6 Loops 99
+7 Basic Types 125
+8 Arrays 161
+9 Functions 183
+10 Program Organization 219
+
+### Advanced Features of C
+
+11 Pointers 241
+12 Pointers and Arrays 257
+13 Strings 277
+14 The Preprocessor 315
+15 Writing Large Programs 349
+16 Structures, Unions, and Enumerations 377
+17 Advanced Uses of Pointers 413
+18 Declarations 457
+19 Program Design 483
+20 Low-Level Programming 509
+
+### The Standard C Library
+
+21 The Standard Library 529
+22 Input/Output 539
+23 Library Support for Numbers and Character Data 589
+24 Error Handling 627
+25 International Features 641
+26 Miscellaneous Library Functions 677
+27 Additional C99 Support for Mathematics 705
+
+## Reference
 
 Programs: 
 
