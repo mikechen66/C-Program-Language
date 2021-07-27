@@ -3,9 +3,8 @@
 #include "xstdio.h"
 
 /* open a stream */
-FILE *_Foprep(const char *name, const char *mods,
-    FILE *str)
-    {   /* make str safe for fclose, macros */
+FILE *_Foprep(const char *name, const char *mods, FILE *str)
+{   /* make str safe for fclose, macros */
     str->_Handle = -1;
     str->_Tmpnam = NULL;
     str->_Buf = NULL;
@@ -19,10 +18,10 @@ FILE *_Foprep(const char *name, const char *mods,
         : *mods == 'a' ? _MCREAT|_MOPENW|_MOPENA
         : 0);
     if ((str->_Mode & (_MOPENR|_MOPENW)) == 0)
-        {   /* bad mods */
+    {   /* bad mods */
         fclose(str);
         return (NULL);
-        }
+    }
     while (*++mods== 'b' || *mods == '+')
         if (*mods == 'b')
             if (str->_Mode & _MBIN)
@@ -37,9 +36,9 @@ FILE *_Foprep(const char *name, const char *mods,
                 str->_Mode |= _MOPENR|_MOPENW;
     str->_Handle = _Fopen(name, str->_Mode, mods);
     if (str->_Handle < 0)
-        {   /* open failed */
+    {   /* open failed */
         fclose(str);
         return (NULL);
-        }
-    return (str);
     }
+    return (str);
+}

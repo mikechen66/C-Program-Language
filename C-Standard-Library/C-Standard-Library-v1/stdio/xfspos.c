@@ -28,7 +28,7 @@ int _Fspos(FILe *str, const fpos_t *ptr, long loff, int way)
     }
     else
     {   /* success */
-        if (str->_Mode & (_MREAD|_MWRITE) )
+        if (str->_Mode & (_MREAD|_MWRITE))
         {   /* empty buffer */
             str->_Next = str->_Buf;
             str->_Rend = str->_Buf;

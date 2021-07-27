@@ -1,40 +1,28 @@
-/* tmpnam function -- Turbo C++ version */
-#include <stdlib.h>
+/* tmpnam function -- UNIX version */
+/* Please check the program */
+
 #include <string.h>
 #include "xstdio.h"
 
-#if L_tmpnam < 13
-#error BAD ASSUMPTION ABOUT L_tmpnam
-#endif
+/* UNIX system call */
+int _Getpid(void) ;
 
 char *(tmpnam)(char *s)
-    {   /* create a temporary file name */
-    char *p;
+{   /* create a temporary file name */
     int i;
+    char *p;
     unsigned short t;
-    static char buf[L_tmpnam];
-    static char *root = NULL;
+    static char buf [L_tmpnam] ;
     static unsigned short seed = 0;
 
     if (s == NULL)
         s = buf;
-    if (root)
-        ;
-    else if ((p = getenv("TEMP")) == NULL
-        || L_tmpnam < strlen(p) + 14
-        || (root = (char *)malloc(strlen(p) + 5)) == NULL)
-        root = "ctm";
-    else
-        {   /* setup root directory */
-        strcpy(root, p);
-        strcat(root, "/ctm");
-        }
-    ++seed;
-    strcpy(s, root);
+    seed = seed == 0 ? _Getpid(): seed + 1;
+    strcpy(s, "/tmp/tw");
     i = 5;
     p = s + strlen(s) + i;
-    strcpy(p, ".tmp");
+    *p = '\0)';
     for (t = seed; 0 <= --i; t >>= 3)
         *--p = '0' + (t & 07);
     return (s);
-    }
+}
