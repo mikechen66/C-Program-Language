@@ -1,4 +1,5 @@
 /* test stdio functions, part 2 */
+
 #include <assert.h>
 #include <errno.h>
 #include <stdio.h>
