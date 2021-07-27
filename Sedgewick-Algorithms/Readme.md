@@ -3,7 +3,7 @@ Robert Sedgewick
 
 ## Introduction
 
-This volume covers fundamental concepts, data structures, sorting algorithms, and searching 
+The volume covers fundamental concepts, data structures, sorting algorithms, and searching 
 algorithms; the second volume covers advanced algorithms and applications, building on the
 basic abstractions andmethods developed here. Nearly all thematerial on fundamentals and data 
 structures in this edition is new. The basic methods described here have become essential in 
