@@ -6,9 +6,9 @@
 #include "xstdio.h"
 
 #define MAX_PAD (sizeof (spaces) - 1)
-#define PAD(s, n)   if (0 < (n)) {int i, j = (n); \
+#define PAD(s, n) if (0 < (n)) {int i, j = (n); \
     for (; 0 < j; j -= i) \
-        {i = MAX_PAD < j ? MAX_PAD : j; PUT(s, i); } }
+        {i = MAX_PAD < j ? MAX_PAD : j; PUT(s, i); }}
 #define PUT(s, n)   \
     if (0 < (n)) {if ((arg = (*pfn)(arg, s, n)) != NULL) \
         x.nchar += (n); else return (EOF); }

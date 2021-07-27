@@ -40,4 +40,3 @@ void _Litob(_Pft *px, char code)
         && 0 < (i = px->width - px->n0 - px->nz0 - px->n1))
         px->nz0 += i;
 }
-

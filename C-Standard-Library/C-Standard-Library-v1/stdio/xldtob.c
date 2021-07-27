@@ -9,7 +9,7 @@
 /* macros */
 #define NDIG    8
 
- /* static data */
+/* static data */
 static const long double pows[] = {
     1e1L, 1e2L, 1e4L, 1e8L, 1e16L, 1e32L,
 #if 0x100 < _LBIAS  /* assume IEEE 754 8- or 10-byte */
