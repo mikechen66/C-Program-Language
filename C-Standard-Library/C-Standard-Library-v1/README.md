@@ -14,7 +14,7 @@ Fifteen sub-directories match the standard headers. These contain all the *.c
 files presented in the text. The directory _test contains all the t*.c files 
 presented as test programs throughout the text. All of the code are converted 
 to the indentation of spaces. It has the directories including _unixvax for 
-the ULTRIX, _unix68k for Sun UNIX (680X0) and _tc86 for Turbo C++ compiler
+the ULTRIX (DEC), _unix68k for Sun UNIX (680X0) and _tc86 for Turbo C++ compiler
 (or ANSI C).
 
 ## Examples
