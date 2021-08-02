@@ -1,4 +1,5 @@
 // ptr_ops.c -- pointer operations
+// Give the 8 pointer operations 
 
 #include <stdio.h>
 
@@ -8,9 +9,8 @@ int main(void)
     int * ptr1, * ptr2, *ptr3;
     
     ptr1 = urn;         // assign an address to a pointer
-    ptr2 = &urn[2];     // ditto
-    // dereference a pointer and take
-    // the address of a pointer
+    ptr2 = &urn[2];     // assign  value to a pointer 
+    // dereference a pointer and take the address of a pointer
     printf("pointer value, dereferenced pointer, pointer address:\n");
     printf("ptr1 = %p, *ptr1 =%d, &ptr1 = %p\n",
            ptr1, *ptr1, &ptr1);
