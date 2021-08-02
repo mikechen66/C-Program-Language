@@ -1,4 +1,8 @@
-/* lethead1.c */
+/* lethead1.c *
+ * Fucntion prototype 
+ * Function calling (in the main)
+ * Function definition
+ * /
 
 #include <stdio.h>
 
